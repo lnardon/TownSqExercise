@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
 import { Link } from 'react-router-dom';
+import '../fullBlogPostStyle.css';
 
 export default class FullBlogPost extends Component {
   constructor(props){
@@ -61,21 +62,27 @@ export default class FullBlogPost extends Component {
 
   render() {
     return(
-      <div>
-        <Link to="./"> back </Link>
-        <h1>{this.state.title}</h1>
-        <p>{this.state.body}</p>
-        <p> Created by {this.state.userName}</p>
-        <button onClick={this.handleModal}>Edit This Post</button>
+      <div id="container">
+        <Link id="backButton"to="./"> Back </Link>
+        <h1 id="postTitle">{this.state.title}</h1>
+        <p id="postBody">{this.state.body}</p>
+        <p id="postCreator"> Created by {this.state.userName}</p>
+        <button id="editButton" onClick={this.handleModal}>Edit This Post</button>
         <Modal
           isOpen={this.state.modalIsOpen}
-          onRequestClose={this.modal}
+          onRequestClose={this.handlePostEditCancel}
           ariaHideApp={false}
           contentLabel="Edit Post">
-          <input type="text" onChange={ this.handleTitleChange } value={ this.state.newTitle }/>
-          <input type="text" onChange={ this.handleBodyChange } value={ this.state.newBody }/>
-          <button onClick={this.handlePostUpdate} > Save Changes </button>
-          <button onClick={this.handlePostEditCancel} > Cancel </button>
+            <div id="modal">
+              <h1 id="modalTitleH1" > Post Title </h1>
+              <textarea  id="titleInput"  type="text" onChange={ this.handleTitleChange } value={ this.state.newTitle }/>
+              <h1 id="modalBodyH1" > Post Body </h1>
+              <textarea id="bodyInput" type="text" onChange={ this.handleBodyChange } value={ this.state.newBody }/>
+              <div id="buttonsDiv" >
+                <button id="saveChangesButton"onClick={this.handlePostUpdate} > Save Changes </button>
+                <button id="cancelChangesButton" onClick={this.handlePostEditCancel} > Cancel </button>
+              </div>
+            </div>
         </Modal>
       </div>
     );

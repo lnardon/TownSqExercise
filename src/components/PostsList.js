@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PostPreview from './PostPreview';
+import '../postListStyle.css';
 
 export default class PostsList extends Component {
   constructor(props){
@@ -15,8 +16,9 @@ export default class PostsList extends Component {
   }
   render() {
     return (
-        <div>
-        {this.state.posts.map((post) => { return < PostPreview post={post} key={post.id} />})}
+        <div className="container">
+          <h1 id="title"> My Lorem Blog </h1>
+          <div id="postListPost">{this.state.posts.map((post) => { return < PostPreview post={post} key={post.id} />})}</div>
         </div>
     );
   }
