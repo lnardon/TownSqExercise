@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.js": "/TownSqExercise/static/js/main.62b8d427.chunk.js",
-    "main.js.map": "/TownSqExercise/static/js/main.62b8d427.chunk.js.map",
+    "main.css": "/TownSqExercise/static/css/main.b4f2636d.chunk.css",
+    "main.js": "/TownSqExercise/static/js/main.78bad7aa.chunk.js",
+    "main.js.map": "/TownSqExercise/static/js/main.78bad7aa.chunk.js.map",
     "runtime~main.js": "/TownSqExercise/static/js/runtime~main.80b877d5.js",
     "runtime~main.js.map": "/TownSqExercise/static/js/runtime~main.80b877d5.js.map",
-    "static/js/2.54e48022.chunk.js": "/TownSqExercise/static/js/2.54e48022.chunk.js",
-    "static/js/2.54e48022.chunk.js.map": "/TownSqExercise/static/js/2.54e48022.chunk.js.map",
+    "static/js/2.8aceeb99.chunk.js": "/TownSqExercise/static/js/2.8aceeb99.chunk.js",
+    "static/js/2.8aceeb99.chunk.js.map": "/TownSqExercise/static/js/2.8aceeb99.chunk.js.map",
     "index.html": "/TownSqExercise/index.html",
-    "precache-manifest.2e1dc64b37a3b6996a8a49495994c70a.js": "/TownSqExercise/precache-manifest.2e1dc64b37a3b6996a8a49495994c70a.js",
-    "service-worker.js": "/TownSqExercise/service-worker.js"
+    "precache-manifest.36e686e3b44a51b01ed57ef7fc4ea09e.js": "/TownSqExercise/precache-manifest.36e686e3b44a51b01ed57ef7fc4ea09e.js",
+    "service-worker.js": "/TownSqExercise/service-worker.js",
+    "static/css/main.b4f2636d.chunk.css.map": "/TownSqExercise/static/css/main.b4f2636d.chunk.css.map"
   }
 }
