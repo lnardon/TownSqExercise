@@ -21,5 +21,5 @@ I created this website as a technical interview for the company TownSquare. Belo
         ● Create a way to edit a post, at least title and body (there's no PUT for
         that, just manipulate your local data).
         
-## I used react to create the project and hosted it on fireabse. 
-##Check It Out Here => https://townsq-219f9.firebaseapp.com/
+## Check It Out Here => https://townsq-219f9.firebaseapp.com/
+I used react to create the project and hosted it on fireabse.
